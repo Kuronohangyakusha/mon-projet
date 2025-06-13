@@ -1,0 +1,217 @@
+{
+  "contacts": [
+    {
+      "id": "contact_001",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "Alice Martin",
+      "numeroTelephone": "+33612345678",
+      "photoProfil": "https://example.com/profil/alice.jpg",
+      "statut": "Disponible",
+      "bloque": false,
+      "favori": true,
+      "creeA": "2025-01-20T09:00:00Z"
+    },
+    {
+      "id": "c7b3",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "Bob Diop",
+      "numeroTelephone": "+221781234567",
+      "photoProfil": "https://example.com/profil/bob.jpg",
+      "statut": "En ligne",
+      "bloque": false,
+      "favori": false,
+      "creeA": "2025-06-03T18:30:15.452Z"
+    },
+    {
+      "id": "fcb3",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "Bob Diop",
+      "numeroTelephone": "+221781234567",
+      "photoProfil": "https://example.com/profil/bob.jpg",
+      "statut": "En ligne",
+      "bloque": false,
+      "favori": false,
+      "creeA": "2025-06-03T18:31:02.467Z"
+    },
+    {
+      "id": "6c04",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "ndeye",
+      "numeroTelephone": "770689592",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-03T18:33:41.929Z"
+    },
+    {
+      "id": "qruc",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "anta",
+      "numeroTelephone": "775554998",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-11T19:57:27.410Z"
+    },
+    {
+      "id": "pitx",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "rose",
+      "numeroTelephone": "770689591",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-11T20:03:19.542Z"
+    },
+    {
+      "id": "ists",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "anta 1",
+      "numeroTelephone": "777777733",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-11T20:08:08.215Z"
+    },
+    {
+      "id": "m8t2",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "nde",
+      "numeroTelephone": "776632745",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-11T20:33:20.570Z"
+    },
+    {
+      "id": "gdv9",
+      "idUtilisateur": "utilisateur_123456",
+      "nom": "anta1",
+      "numeroTelephone": "773208586",
+      "photoProfil": "",
+      "statut": "Disponible",
+      "favori": false,
+      "bloque": false,
+      "creeA": "2025-06-11T20:38:11.584Z"
+    }
+  ],
+  "groupes": [
+    {
+      "id": "grp_001",
+      "nom": "Famille",
+      "description": "Groupe familial pour rester en contact",
+      "creePar": "utilisateur_123456",
+      "estPrive": true,
+      "membres": [
+        "utilisateur_123456",
+        "utilisateur_789012",
+        "utilisateur_345678"
+      ],
+      "admins": [
+        "utilisateur_123456"
+      ],
+      "avatar": "https://example.com/groupe/famille.jpg",
+      "creeA": "2025-06-01T10:00:00Z",
+      "dernierMessage": {
+        "contenu": "Salut tout le monde !",
+        "auteur": "utilisateur_123456",
+        "dateEnvoi": "2025-06-11T15:30:00Z"
+      }
+    },
+    {
+      "id": "grp_002",
+      "nom": "Équipe Projet",
+      "description": "Discussion pour le projet Aurora",
+      "creePar": "utilisateur_123456",
+      "estPrive": false,
+      "membres": [
+        "utilisateur_123456",
+        "utilisateur_456789",
+        "utilisateur_987654",
+        "utilisateur_234567"
+      ],
+      "admins": [
+        "utilisateur_123456",
+        "utilisateur_456789"
+      ],
+      "avatar": "",
+      "creeA": "2025-06-05T14:20:00Z",
+      "dernierMessage": {
+        "contenu": "Réunion demain à 14h",
+        "auteur": "utilisateur_456789",
+        "dateEnvoi": "2025-06-11T16:45:00Z"
+      }
+    },
+    {
+      "id": "grp_6jgmw3eav",
+      "nom": "zeze",
+      "description": "wq",
+      "creePar": "utilisateur_123456",
+      "estPrive": true,
+      "membres": [
+        "contact_001",
+        "c7b3",
+        "utilisateur_123456"
+      ],
+      "admins": [
+        "utilisateur_123456"
+      ],
+      "avatar": "",
+      "creeA": "2025-06-11T22:18:15.614Z",
+      "dernierMessage": {
+        "contenu": "",
+        "auteur": "",
+        "dateEnvoi": "2025-06-11T22:18:15.614Z"
+      }
+    },
+    {
+      "id": "grp_vylwxucpp",
+      "nom": "zeze",
+      "description": "",
+      "creePar": "utilisateur_123456",
+      "estPrive": true,
+      "membres": [
+        "contact_001",
+        "c7b3",
+        "utilisateur_123456"
+      ],
+      "admins": [
+        "utilisateur_123456"
+      ],
+      "avatar": "",
+      "creeA": "2025-06-11T22:29:02.597Z",
+      "dernierMessage": {
+        "contenu": "",
+        "auteur": "",
+        "dateEnvoi": "2025-06-11T22:29:02.597Z"
+      }
+    },
+    {
+      "id": "grp_1c3spplb5",
+      "nom": "zezej",
+      "description": "",
+      "creePar": "utilisateur_123456",
+      "estPrive": true,
+      "membres": [
+        "contact_001",
+        "c7b3",
+        "utilisateur_123456"
+      ],
+      "admins": [
+        "utilisateur_123456"
+      ],
+      "avatar": "",
+      "creeA": "2025-06-11T22:32:27.077Z",
+      "dernierMessage": {
+        "contenu": "",
+        "auteur": "",
+        "dateEnvoi": "2025-06-11T22:32:27.077Z"
+      }
+    }
+  ]
+}
