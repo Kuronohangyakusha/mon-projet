@@ -1,6 +1,6 @@
 //main.js
 import './style.css'
-const apiUrl = "http://localhost:3000/contacts";
+const apiUrl = "https://mon-projet-xrnh.onrender.com/contacts";
 import { ConnectionInterface, homepage } from './counter';
 import { verifierConnexion, supprimerConnexion, initConnectionEvents } from '../login';
 import { verifierNumeroExiste, validerNumero, afficherErreur, effacerErreurs, obtenirNomUnique } from '../ajout';
@@ -25,7 +25,7 @@ async function chargerContactsEtGroupes() {
       
       // Essayer de récupérer les groupes depuis un autre endpoint ou fichier
       try {
-        const groupesResponse = await fetch('http://localhost:3000/groupes');
+        const groupesResponse = await fetch('https://mon-projet-xrnh.onrender.com/groupes');
         if (groupesResponse.ok) {
           groupes = await groupesResponse.json();
         }

@@ -1,5 +1,5 @@
 //groupe.js
-const apiUrl = "http://localhost:3000/contacts";
+const apiUrl = "https://mon-projet-xrnh.onrender.com/contacts";
 
 // Fonction pour afficher le popup de création de groupe
 export function afficherPopupGroupe() {
@@ -166,7 +166,7 @@ async function creerGroupe(overlay) {
   
   try {
     // Essayer d'abord l'endpoint /groupes
-    let response = await fetch('http://localhost:3000/groupes', {
+    let response = await fetch('https://mon-projet-xrnh.onrender.com/groupes', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -179,7 +179,7 @@ async function creerGroupe(overlay) {
       console.log('Endpoint /groupes non trouvé, tentative alternative...');
       
       // Récupérer d'abord toutes les données
-      const getResponse = await fetch('http://localhost:3000/contacts');
+      const getResponse = await fetch('https://mon-projet-xrnh.onrender.com/contacts');
       const allData = await getResponse.json();
       
       // Ajouter le groupe aux données existantes
@@ -227,7 +227,7 @@ async function creerGroupeViaContacts(nouveauGroupe) {
   try {
     // Cette approche nécessiterait une modification côté serveur
     // pour accepter les groupes via l'endpoint contacts
-    const response = await fetch('http://localhost:3000/contacts', {
+    const response = await fetch('https://mon-projet-xrnh.onrender.com/contacts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

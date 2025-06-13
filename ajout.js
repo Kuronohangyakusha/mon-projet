@@ -1,5 +1,5 @@
 //ajout.js
-const apiUrl = "http://localhost:3000/contacts";
+const apiUrl = "https://mon-projet-xrnh.onrender.com/contacts";
 // Fonction pour vérifier si le numéro existe dans la base
 export async function verifierNumeroExiste(numero) {
   try {
